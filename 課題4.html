@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題4</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <button id="btn">ボタン</button>
+
+    <img id="myimage" src="zqUWsF8D_400x400.jpg" alt="画像">
+
+    <script>
+        var bottun = document.getElementById('btn');
+
+        var image = document.getElementById("myimage");
+
+        bottun.addEventListener('click',
+        function(){
+           image.classList.toggle("hide") 
+        });
+    </script>
+</body>
+</html>
